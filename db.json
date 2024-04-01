@@ -1,0 +1,65 @@
+
+[
+    {
+        "priority": 0,
+        "target": {
+            "resourceIds": [
+                "resource1"
+            ],
+            "venIds": [
+                "VEN1"
+            ],
+            "partyIds": [
+                "Party_123"
+            ],
+            "groupIds": [
+                "Group_123"
+            ]
+        },
+        "requestId": "DisReq_051023_033514_552",
+        "eventId": "Events-2",
+        "modNumber": 0,
+        "eventStatus": "far",
+        "responseRequired": "ALWAYS",
+        "marketContext": "http://MarketContext1",
+        "dtStart": "2023-10-06T18:00:00.000Z",
+        "duration": "PT30M",
+        "notification": "PT0S",
+        "startAfter": "PT0S",
+        "rampUp": "PT0S",
+        "recovery": "PT0S",
+        "signals": [
+            {
+                "name": "LOAD_DISPATCH",
+                "id": "SIG_DISPATCH_1025_1",
+                "type": "DELTA",
+                "units": {
+                    "itemDescription": "RealPower",
+                    "itemUnits": "W",
+                    "siScaleCode": "k",
+                    "powerAttributes": {
+                        "voltage": 100,
+                        "hertz": 50,
+                        "ac": true
+                    }
+                },
+                "curValue": "0",
+                "intervals": [
+                    {
+                        "duration": "PT30M",
+                        "value": "300"
+                       
+                    }
+                ]
+            }
+        ],
+        "createdTs": 1696487714000,
+        "startTs": 1696615200000,
+        "endTs": 1696617000000,
+        "rampUpStartTs": 1696615200000,
+        "recoveryEndTs": 1696617000000,
+        "vtnComment": "We have no comments",
+        "testEvent": false,    
+        "participationStatus": "OPT_IN",
+        "vtnId": "TH_VTN1"
+    }
