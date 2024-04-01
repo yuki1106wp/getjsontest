@@ -4,51 +4,6 @@
     "eventId": "Event-Recovery-030608",
     "participationStatus": "OPT_IN",
     "dtStart": "2024-03-06T08:00:00Z",
-    "eventStatus": "far",
-    "marketContext": "http://MarketContext1",
-    "endTs": 1709713800000,    
-    "startTs": 1709712000000,   
-    "duration": "PT30M",
-    "modNumber": 0,
-    "startAfter": "PT0S",
-    "notification": "PT0S",
-    "rampUp": "PT5M",
-    "recovery": "PT5M",
-    "requestId": "DisReq_060324_033412_175",
-    "testEvent": false,
-    "vtnComment": "This is sample comment",
-    "signals": [
-      {
-        "intervals": [
-          {
-            "duration": "PT30M",
-            "value": "50"
-          }
-        ],
-        "curValue": "0",
-        "units": {
-          "itemDescription": "RealPower",
-          "itemUnits": "W",
-          "siScaleCode": "k",
-          "powerAttributes": {
-            "hertz": 50,
-            "voltage": 100,
-            "ac": true
-          }
-        },
-        "type": "DELTA",
-        "id": "SIG_DISPATCH_1025_1",
-        "name": "LOAD_DISPATCH"
-      }
-    ],
-    "rampUpStartTs": 1709712300000,  
-    "recoveryEndTs": 1709714100000,  
-    "responseRequired": "ALWAYS",
-    "priority": 1,
-    "target": {
-      "venIds": [
-        "VEN1"
-      ]
-    }
+    
   }
   
